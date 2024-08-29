@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['drone', 'phone', 'keyboard', 'shoe']
+
+roboflow:
+  workspace: uni-project-1
+  project: project-compile4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/uni-project-1/project-compile4/dataset/1
